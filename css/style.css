@@ -1,0 +1,100 @@
+*,body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+td {
+  width: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.prod-img {
+  height: 100px;
+  width: auto;
+}
+
+#imgPlaceholder {
+  height: 150px;
+  width: 200px;
+  background: #ddd;
+}
+
+#addProduct {
+  float: right;
+  padding: 10px;
+}
+
+
+#addProdText,
+#dropdownToggler {
+  padding: 10px 0;
+}
+
+#addProdText {
+  font-weight: bold;  
+}
+
+#dropdownToggler {
+  border-bottom: 1px solid #ddd;
+  color: #ddd;
+  position: relative;
+  cursor: pointer;
+}
+
+#dropdownToggler::after {
+  display: block;
+  content: '\02C5';
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+#productsDropdown {
+  width: 200px;
+  cursor: pointer;
+}
+#compareTable {
+  border: 1px solid #ddd;  
+}
+.tableTr {
+  height: 30px;
+  border: 1px solid #ddd;
+}
+.tableTr td {
+  border: 1px solid #ddd;
+}
+
+.featureTr {
+  height: 50px;
+  padding-left: 200px;
+}
+.featureTr td {
+  width: 150px;
+}
+.featureTr td:first-child {
+  padding-left: 200px;  
+}
+.featureTr td span {
+  padding: 0 5px;
+}
+.featureTr td span#discountPrice {
+  color: #ddd;
+  font-size: 12px;
+}
+.featureTr td span#discount {
+  color: darkgreen;
+  font-size: 10px;
+}
+
+#tableWrapper {
+  padding-left: 100px;
+}
